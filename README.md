@@ -1,7 +1,6 @@
 # Uge 7
 ## Forberedelse
 Download lejos fra [dette link](https://sourceforge.net/projects/lejos/files/lejos-EV3/0.9.1-beta/)
-[link](https://sourceforge.net/projects/ev3.lejos.p/files/latest/download)
 Lejos er et værktøj som gør det muligt at programmere en lego-ev3-robot med Java. Til denne uge skal vi bare bruge den som en "tilfældig"
 zip-fil i forbindelse med øvelser i terminalen. Men såfremt vi får tid til det vil jeg inddrage det i undervisningen senere. 
 Når filen er hentet ned på din computer skal du pakke den ud i den folder du laver i din terminal i næste øvelse

@@ -13,7 +13,7 @@ Lejos er et værktøj som gør det muligt at programmere en lego-ev3-robot med J
 zip-fil i forbindelse med øvelser i terminalen. Men såfremt vi får tid vil jeg inddrage det i undervisningen senere. 
 Når filen er hentet ned på din computer skal du pakke den ud i den folder du laver i din terminal i næste øvelse
 
-## Terminal øvelser 
+## Terminal øvelser  ✔️
 Øvelserne er ikke tænkt så man skal kunne komme i mål ved at følge en beskrivelse. Derfor er vi der til at hjælpe.
 
 1) Øvelser med pwd, cd og mkdir
@@ -25,20 +25,20 @@ Når filen er hentet ned på din computer skal du pakke den ud i den folder du l
   * brug jar kommandoen (den ligger i JAVA_HOME/bin, tjek dens optioner) til at se hvor mange klasser der er i ev3classes.jar (hint: kombiner jar-kommandoen med grep | wc)
 
 
-## Java øvelser. 
+## Java øvelser. ✔️
 Her er en række java-filer og en enkelt tekstfil. Hver fil indeholder en 
 række opgaver som I regner sammen i jeres grupper på onsdag. 
 
-1) CompilerError
+1) CompilerError ✔️
 
-2) CompilerErrorTwo
+2) CompilerErrorTwo ✔️
 
-3) Escape
+3) Escape ✔️
 
-4) MyFirstProgram
+4) MyFirstProgram ✔️
 
-5) Fractions
+5) Fractions ✔️
 
-6) FirstAsciiArt
+6) FirstAsciiArt ✔️
 
-7) VarAndOperators
+7) VarAndOperators ✔️

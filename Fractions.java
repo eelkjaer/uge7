@@ -24,17 +24,40 @@ class Fractions {
      *
      */
 
-     double tæller = 1.0;
-     double nævner = 3.0;
-     int iTæller = 1;
-     int iNævner = 3;
-     double sum;
-     double brøk = tæller/nævner;
-     System.out.println("Brøken " + iTæller + "/" + iNævner + " giver som decimaltal: " + brøk); 
+    double tæller, nævner, sum, brøk;
+    int nummer = 10;
 
-     // TODO
-     // 1) prøv med nævner 7 og 10
-     // 2) sum
-     // 3) produkt
+
+     //Brøk: 1/3
+     tæller = 1.0;
+     nævner = 3.0;
+     brøk = tæller/nævner;
+     sum = brøk + nummer; //Plus
+     System.out.println("Brøken " + (int)tæller + "/" + (int)nævner + " giver som decimaltal: " + brøk); 
+     System.out.println("Decimal " + brøk + " plus " + nummer + " giver: " + sum);
+     sum = brøk * nummer;
+     System.out.println("Decimal " + brøk + " gange " + nummer + " giver: " + sum + "\n");
+
+
+     //Brøk: 1/7
+     tæller = 1.0;
+     nævner = 7.0;
+     brøk = tæller/nævner;
+     sum = brøk + nummer; //Plus
+     System.out.println("Brøken " + (int)tæller + "/" + (int)nævner + " giver som decimaltal: " + brøk); 
+     System.out.println("Decimal " + brøk + " plus " + nummer + " giver: " + sum);
+     sum = brøk * nummer;
+     System.out.println("Decimal " + brøk + " gange " + nummer + " giver: " + sum + "\n");
+
+     //Brøk: 1/10
+     tæller = 1.0;
+     nævner = 10.0;
+     brøk = tæller/nævner;
+     sum = brøk + nummer; //Plus
+     System.out.println("Brøken " + (int)tæller + "/" + (int)nævner + " giver som decimaltal: " + brøk); 
+     System.out.println("Decimal " + brøk + " plus " + nummer + " giver: " + sum);
+     sum = brøk * nummer;
+     System.out.println("Decimal " + brøk + " gange " + nummer + " giver: " + sum + "\n");
+
   }
 }

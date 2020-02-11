@@ -1,5 +1,5 @@
-class Kurt 
-  void main(Strings[] args {
+class Kurt {
+  public static void main(String[] args) {
     /*
      * FORMÅL:
      * Arbejde med 2.9 Kompiler fejl
@@ -13,10 +13,10 @@ class Kurt
      * "Jeg begynder med T og er 10 år gammel"
      *
      */
-    char myLetter = 'T";
-    int myAge = 10f;
-    system.out.print("Hej Verden")
-    system.out.print("Det bliver mega
-    system.out.print("Jeg begynder med",myLetter + "og er ",myAge,"gammel");
+    String myLetter = "T"; //Ændret til String fremfor Char. Hvis typen er Char skal '' benyttes fremfor ""
+    int myAge = 10;
+    System.out.println("Hej Verden");
+    System.out.println("Det bliver mega hyggeligt.");
+    System.out.println("Jeg begynder med " + myLetter + " og er " + myAge + " år gammel");
   }
 }

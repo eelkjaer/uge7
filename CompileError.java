@@ -1,5 +1,5 @@
 class CompileError {
-  static main(Strings[] args) {
+  public static void main(String[] args) {
     /*
      * FORMÅL:
      * Arbejde med kompilerfejl
@@ -8,6 +8,6 @@ class CompileError {
      * og udskrive "Hej Verden"
      *
      */
-    system.out.println(Hej Verden"))
+    System.out.println("Hej Verden");
   }
 }

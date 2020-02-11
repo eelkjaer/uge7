@@ -29,7 +29,26 @@ class VarsAndOperators {
      *
      * 
      */
-    //TODO:...
+
+    String kundeNavn;
+    int kiloVaegt;
+    double meterHoejde, gramVaegt, bmi;
+
+    kundeNavn = "Kurt Verner";
+    kiloVaegt = 75;
+    meterHoejde = 1.75;
+    gramVaegt = kiloVaegt * 1000;
+    bmi = (double)kiloVaegt / (meterHoejde*meterHoejde);
+
+    System.out.println("Kære " + kundeNavn + ". Din vægt i kg " + (double)kiloVaegt + " svarer til " + gramVaegt + " gram.");
+    System.out.println("Kære " + kundeNavn + ". Din BMI er " + bmi);
+
+    //TODO: Runder ned til 2 decimaler. Ved 6 giver den anderledes værdi.
+    bmi = bmi * 100;
+    bmi = (int) bmi;
+    bmi = bmi / 100;
+
+    System.out.println("Kære " + kundeNavn + ". Din BMI er " + bmi);
 
   }
 }

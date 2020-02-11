@@ -23,5 +23,14 @@ class Escape {
      *
      */
 
+    System.out.println("Mange gange skal man ta' sig \"sammen\"");
+    System.out.println("Skriver du \"\\\" får du en tom besked");
+    System.out.println("public class Hello {"
+        + "\n\tpublic static main (String[] args)"
+        + "\n\t{"
+        + "\n\t\tSystem.out.println(\"Hej Verden\");"
+        + "\n\t}"
+        + "\n}");
+
   }
 }

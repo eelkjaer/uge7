@@ -25,20 +25,23 @@ Når filen er hentet ned på din computer skal du pakke den ud i den folder du l
 
   8 .jar filer
 
-  ```
-./pc/ev3tools.jar
-./pc/3rdparty/jfreechart.jar
-./pc/3rdparty/jcommon.jar
-./pc/3rdparty/commons-cli.jar
-./pc/3rdparty/jsch-0.1.50.jar
-./ev3/ev3classes.jar
-./ev3/dbusjava.jar
-./ev3/3rdparty/opencv-2411.jar
+```
+PWD = /Documents/leJOS_EV3_0.9.1-beta/lib
 
-  ```
+Kommando = find . -type f -name "*.jar" | wc -l
+
+Result = 8
+```
 
   * ***brug jar kommandoen (den ligger i JAVA_HOME/bin, tjek dens optioner) til at se hvor mange klasser der er i ev3classes.jar (hint: kombiner jar-kommandoen med grep | wc)***
-  697 klasser i "ev3classes.jar"
+  
+```
+PWD = /Documents/leJOS_EV3_0.9.1-beta/lib/ev3
+
+Kommando = jar tf ev3classes.jar | grep .class | wc -l
+
+Result = 697
+```
 
 
 ## Java øvelser. ✔️

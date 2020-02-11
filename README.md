@@ -1,6 +1,8 @@
 # Uge 7
-# (2. Gruppe)
+##(2. Gruppe)
 ## Andreas, Emil E, Mohammed, Jacob
+
+
 
 ## Terminal øvelser  ✔️
 Øvelserne er ikke tænkt så man skal kunne komme i mål ved at følge en beskrivelse. Derfor er vi der til at hjælpe.

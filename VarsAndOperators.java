@@ -27,21 +27,6 @@ class VarsAndOperators {
      * Overvej hvordan du kan få printet følgende istedet (og kun vha kapitel 2)
      * Kære Kurt Verner. Din BMI er 24.489796
      *
-     * 4)
-     * Put flg. ind i main-metoden.Kompilér og kør programmet.
-     *
-     * char mystiskeA = '9';
-     * char mystiskeB = '8';
-     * System.out.println(mystiskeA + mystiskeB + ": er resultatet af " + mystiskeA + " + " + mystiskeB);
-     * System.out.println(mystiskeA + " plus " + mystiskeB + " = " +  mystiskeA + mystiskeB);
-     *
-     * 5)
-     * Put nu flg. ind i main-metoden, kompilér og kør programmet.
-     *
-     * int mystiskeA = 9;
-     * int mystiskeB = 8;
-     * System.out.println(mystiskeA + mystiskeB + ": er resultatet af " + mystiskeA + " + " + mystiskeB);
-     * System.out.println(mystiskeA + " plus " + mystiskeB + " = " +  mystiskeA + mystiskeB);
      * 
      */
     //TODO:...

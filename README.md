@@ -1,5 +1,5 @@
 # Uge 7
-##(2. Gruppe)
+## (2. Gruppe)
 ## Andreas, Emil E, Mohammed, Jacob
 
 

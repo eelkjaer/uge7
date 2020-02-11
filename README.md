@@ -21,8 +21,24 @@ Når filen er hentet ned på din computer skal du pakke den ud i den folder du l
   * cd til Documents og mkdir en ny mappe 
 2) Øvelser med find, grep, wc, jar og | 
   * pak filen ud i den nye mappe (enten med din stifinder eller i terminalen (så skal du bruge gzip og tar).
-  * brug find | grep til at finde ud af hvor mange jar-filer der er i lib-folderen
-  * brug jar kommandoen (den ligger i JAVA_HOME/bin, tjek dens optioner) til at se hvor mange klasser der er i ev3classes.jar (hint: kombiner jar-kommandoen med grep | wc)
+  * ***brug find | grep til at finde ud af hvor mange jar-filer der er i lib-folderen***
+
+  8 .jar filer
+
+  ```
+./pc/ev3tools.jar
+./pc/3rdparty/jfreechart.jar
+./pc/3rdparty/jcommon.jar
+./pc/3rdparty/commons-cli.jar
+./pc/3rdparty/jsch-0.1.50.jar
+./ev3/ev3classes.jar
+./ev3/dbusjava.jar
+./ev3/3rdparty/opencv-2411.jar
+
+  ```
+
+  * ***brug jar kommandoen (den ligger i JAVA_HOME/bin, tjek dens optioner) til at se hvor mange klasser der er i ev3classes.jar (hint: kombiner jar-kommandoen med grep | wc)***
+  697 klasser i "ev3classes.jar"
 
 
 ## Java øvelser. ✔️

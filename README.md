@@ -20,7 +20,14 @@ Når filen er hentet ned på din computer skal du pakke den ud i den folder du l
   * åben din terminal. Du skal sikre dig at du står i dit "home-dir" vha kommandoen pwd (a la /c/user/brugernavn)
   * cd til Documents og mkdir en ny mappe 
 2) Øvelser med find, grep, wc, jar og | 
-  * pak filen ud i den nye mappe (enten med din stifinder eller i terminalen (så skal du bruge gzip og tar).
+  * ***pak filen ud i den nye mappe (enten med din stifinder eller i terminalen (så skal du bruge gzip og tar).***
+
+
+```
+Kommando = tar -xvf leJOS_EV3_0.9.1-beta.tar.gz
+```
+
+
   * ***brug find | grep til at finde ud af hvor mange jar-filer der er i lib-folderen***
 
 
@@ -34,7 +41,7 @@ Result = 8
 
   * ***brug jar kommandoen (den ligger i JAVA_HOME/bin, tjek dens optioner) til at se hvor mange klasser der er i ev3classes.jar (hint: kombiner jar-kommandoen med grep | wc)***
   
-  
+
 ```
 PWD = /Documents/leJOS_EV3_0.9.1-beta/lib/ev3
 

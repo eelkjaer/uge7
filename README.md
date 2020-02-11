@@ -1,5 +1,4 @@
-# Uge 7
-2. Gruppe
+# Uge 7 - 2. Gruppe
 
 ## Terminal øvelser  ✔️
 Øvelserne er ikke tænkt så man skal kunne komme i mål ved at følge en beskrivelse. Derfor er vi der til at hjælpe.

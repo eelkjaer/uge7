@@ -4,19 +4,23 @@ Jeg vil være der sammen med tutorerne til at hjælpe og svare på spørgsmål.
 
 ## Forberedelse
 Allerførst .. mind dig selv om hvor pipe-tasten er på dit tastatur (|)
+Dernæst .. tanken er ikke at I skal kunne løse alle opgaver. Men tag en bid af terminal-øvelserne og java-øvelserne.
 
-Dernæst .. Download lejos fra [dette link](https://sourceforge.net/projects/ev3.lejos.p/files/0.9.1-beta/).
+Og nu igang .. 
+Download lejos fra [dette link](https://sourceforge.net/projects/ev3.lejos.p/files/0.9.1-beta/).
 OBS Windows-brugere. Det er vigtigt at man vælger filen leJOS_EV3_0.9.1-beta.tar.gz og ikke exe-filen. 
 Lejos er et værktøj som gør det muligt at programmere en lego-ev3-robot med Java. Til denne uge skal vi bare bruge den som en "tilfældig"
 zip-fil i forbindelse med øvelser i terminalen. Men såfremt vi får tid vil jeg inddrage det i undervisningen senere. 
 Når filen er hentet ned på din computer skal du pakke den ud i den folder du laver i din terminal i næste øvelse
 
 ## Terminal øvelser 
+Øvelserne er ikke tænkt så man skal kunne komme i mål ved at følge en beskrivelse. Derfor er vi der til at hjælpe.
+
 1) Øvelser med pwd, cd og mkdir
   * åben din terminal. Du skal sikre dig at du står i dit "home-dir" vha kommandoen pwd (a la /c/user/brugernavn)
   * cd til Documents og mkdir en ny mappe 
 2) Øvelser med find, grep, wc, jar og | 
-  * pak filen ud i den nye mappe (enten med din stifinder eller i terminalen (kommandoer gzip og tar).
+  * pak filen ud i den nye mappe (enten med din stifinder eller i terminalen (så skal du bruge gzip og tar).
   * brug find | grep til at finde ud af hvor mange jar-filer der er i lib-folderen
   * brug jar kommandoen (den ligger i JAVA_HOME/bin, tjek dens optioner) til at se hvor mange klasser der er i ev3classes.jar (hint: kombiner jar-kommandoen med grep | wc)
 

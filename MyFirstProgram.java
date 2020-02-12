@@ -1,3 +1,12 @@
+/*
+FORMÅL:
+At tage en tekstfil og gøre den til en udførbar java-fil
+
+OPGAVE:
+Lav dit eget java-program med din egen besked til verden.
+Du skal bruge denne fil - dvs den skal hedde noget med MyFirstProgram.
+*/
+
 import java.time.LocalDate;
 
 class MyFirstProgram {

@@ -42,13 +42,7 @@ class VarsAndOperators {
 
     System.out.println("Kære " + kundeNavn + ". Din vægt i kg " + (double)kiloVaegt + " svarer til " + gramVaegt + " gram.");
     System.out.println("Kære " + kundeNavn + ". Din BMI er " + bmi);
-
-    //TODO: Runder ned til 2 decimaler. Ved 6 giver den anderledes værdi.
-    bmi = bmi * 100;
-    bmi = (int) bmi;
-    bmi = bmi / 100;
-
-    System.out.println("Kære " + kundeNavn + ". Din BMI er " + bmi);
+    System.out.printf("Kære %s. Din BMI er %f", kundeNavn, bmi);
 
   }
 }
